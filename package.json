@@ -1,0 +1,15 @@
+{
+  "name": "riot-minigames",
+  "version": "1.0.0",
+  "description": "Multiplayer minigames set in the Riot Games universe (LoL, Valorant, Arcane)",
+  "private": true,
+  "scripts": {
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "start": "npm start --prefix backend"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

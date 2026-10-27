@@ -1,0 +1,212 @@
+[
+  {
+    "id": "lol-jinx",
+    "name": "Jinx",
+    "universe": "lol",
+    "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jinx_0.jpg",
+    "hint": "Es una pistolera caótica con trenzas azules y una obsesión por las explosiones."
+  },
+  {
+    "id": "lol-vi",
+    "name": "Vi",
+    "universe": "lol",
+    "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vi_0.jpg",
+    "hint": "Oficial de la ley con guanteletes de poder que destruyen blindajes."
+  },
+  {
+    "id": "lol-jayce",
+    "name": "Jayce",
+    "universe": "lol",
+    "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jayce_0.jpg",
+    "hint": "Inventor de Piltóver que transforma su arma entre martillo y cañón."
+  },
+  {
+    "id": "lol-caitlyn",
+    "name": "Caitlyn",
+    "universe": "lol",
+    "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_0.jpg",
+    "hint": "Francotiradora de élite de Piltóver conocida por sus trampas y precisión a larga distancia."
+  },
+  {
+    "id": "lol-ekko",
+    "name": "Ekko",
+    "universe": "lol",
+    "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_0.jpg",
+    "hint": "Chico prodigio de Zaun que domina el tiempo con un dispositivo hecho a mano."
+  },
+  {
+    "id": "lol-heimerdinger",
+    "name": "Heimerdinger",
+    "universe": "lol",
+    "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Heimerdinger_0.jpg",
+    "hint": "Genio yordle inventor de torretas automáticas y cohetes teledirigidos."
+  },
+  {
+    "id": "lol-singed",
+    "name": "Singed",
+    "universe": "lol",
+    "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Singed_0.jpg",
+    "hint": "Alquimista loco de Zaun que arrastra enemigos y deja rastros de veneno."
+  },
+  {
+    "id": "lol-warwick",
+    "name": "Warwick",
+    "universe": "lol",
+    "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Warwick_0.jpg",
+    "hint": "Bestia sin recuerdos creada por experimentos de Zaun que caza al olor de la sangre."
+  },
+  {
+    "id": "lol-ahri",
+    "name": "Ahri",
+    "universe": "lol",
+    "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg",
+    "hint": "Zorro de nueve colas que encanta a sus víctimas antes de devorar su esencia vital."
+  },
+  {
+    "id": "lol-lux",
+    "name": "Lux",
+    "universe": "lol",
+    "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lux_0.jpg",
+    "hint": "Dama de la luminosidad de Demacia que dispara rayos de luz purificadora."
+  },
+  {
+    "id": "lol-thresh",
+    "name": "Thresh",
+    "universe": "lol",
+    "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Thresh_0.jpg",
+    "hint": "Guardián de las cadenas que colecciona almas de sus víctimas en su linterna."
+  },
+  {
+    "id": "lol-yasuo",
+    "name": "Yasuo",
+    "universe": "lol",
+    "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yasuo_0.jpg",
+    "hint": "Espadachín desterrado que canaliza el viento a través de su hoja sin empuñadura."
+  },
+  {
+    "id": "lol-zed",
+    "name": "Zed",
+    "universe": "lol",
+    "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zed_0.jpg",
+    "hint": "Maestro de las sombras que duplica su forma para atacar desde múltiples ángulos."
+  },
+  {
+    "id": "lol-katarina",
+    "name": "Katarina",
+    "universe": "lol",
+    "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Katarina_0.jpg",
+    "hint": "Asesina de Noxus que teletransporta hacia sus dagas y encadena asesinatos sin parar."
+  },
+  {
+    "id": "lol-nunu",
+    "name": "Nunu",
+    "universe": "lol",
+    "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nunu_0.jpg",
+    "hint": "Niño aventurero montado sobre un yeti gigante que rueda bolas de nieve gigantescas."
+  },
+  {
+    "id": "lol-teemo",
+    "name": "Teemo",
+    "universe": "lol",
+    "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_0.jpg",
+    "hint": "Explorador yordle con cerbatana venenosa que siembra el mapa de hongos trampa."
+  },
+  {
+    "id": "val-jett",
+    "name": "Jett",
+    "universe": "valorant",
+    "image": "https://www.valorant-api.com/v1/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/displayicon",
+    "hint": "Agente coreana que monta corrientes de viento para moverse con agilidad extrema."
+  },
+  {
+    "id": "val-phoenix",
+    "name": "Phoenix",
+    "universe": "valorant",
+    "image": "https://www.valorant-api.com/v1/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon",
+    "hint": "Duelista británico que se cura a sí mismo con sus propias llamas y puede resucitar."
+  },
+  {
+    "id": "val-sage",
+    "name": "Sage",
+    "universe": "valorant",
+    "image": "https://www.valorant-api.com/v1/agents/569fdd95-4d10-43ab-ca70-79becc718b46/displayicon",
+    "hint": "Centinela china que cura aliados, erige muros de hielo y revive a compañeros caídos."
+  },
+  {
+    "id": "val-sova",
+    "name": "Sova",
+    "universe": "valorant",
+    "image": "https://www.valorant-api.com/v1/agents/320b2a48-4d9b-a075-30f1-1f93a9b638fa/displayicon",
+    "hint": "Iniciador ruso con arco de reconocimiento que rastrea enemigos a través de paredes."
+  },
+  {
+    "id": "val-omen",
+    "name": "Omen",
+    "universe": "valorant",
+    "image": "https://www.valorant-api.com/v1/agents/8e253930-4c05-31dd-1b6c-968525494517/displayicon",
+    "hint": "Controlador sombrío que teletransporta, ciega con oscuridad y acecha desde las sombras."
+  },
+  {
+    "id": "val-reyna",
+    "name": "Reyna",
+    "universe": "valorant",
+    "image": "https://www.valorant-api.com/v1/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/displayicon",
+    "hint": "Duelista mexicana que devora almas enemigas para curarse o volverse invulnerable."
+  },
+  {
+    "id": "val-killjoy",
+    "name": "Killjoy",
+    "universe": "valorant",
+    "image": "https://www.valorant-api.com/v1/agents/1dbf2edd-4729-0984-3115-daa5eed44993/displayicon",
+    "hint": "Genio alemana que despliega torretas, granadas nano y un campo de detención robótico."
+  },
+  {
+    "id": "val-cypher",
+    "name": "Cypher",
+    "universe": "valorant",
+    "image": "https://www.valorant-api.com/v1/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayicon",
+    "hint": "Espía marroquí que controla el mapa con cámaras, trampas de cable y espías."
+  },
+  {
+    "id": "val-viper",
+    "name": "Viper",
+    "universe": "valorant",
+    "image": "https://www.valorant-api.com/v1/agents/707eab51-4836-f488-046a-cda6bf494859/displayicon",
+    "hint": "Controladora americana que despliega gas tóxico y pantallas de veneno letales."
+  },
+  {
+    "id": "val-breach",
+    "name": "Breach",
+    "universe": "valorant",
+    "image": "https://www.valorant-api.com/v1/agents/5f8d3a7f-467b-97f3-062c-b92f15541bbf/displayicon",
+    "hint": "Iniciador sueco con brazos bióni­cos que lanza ondas sísmicas a través de paredes."
+  },
+  {
+    "id": "val-raze",
+    "name": "Raze",
+    "universe": "valorant",
+    "image": "https://www.valorant-api.com/v1/agents/f94c3b30-42be-e959-889c-5aa313dba261/displayicon",
+    "hint": "Duelista brasileña amante de los explosivos que destruye zonas enteras con su cohete."
+  },
+  {
+    "id": "val-skye",
+    "name": "Skye",
+    "universe": "valorant",
+    "image": "https://www.valorant-api.com/v1/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/displayicon",
+    "hint": "Iniciadora australiana que convoca bestias de luz para explorar y curar al equipo."
+  },
+  {
+    "id": "val-neon",
+    "name": "Neon",
+    "universe": "valorant",
+    "image": "https://www.valorant-api.com/v1/agents/bb2a4828-46eb-8cd1-e765-15848195d751/displayicon",
+    "hint": "Duelista filipina que corre a velocidad eléctrica y dispara rayos con sus manos."
+  },
+  {
+    "id": "val-chamber",
+    "name": "Chamber",
+    "universe": "valorant",
+    "image": "https://www.valorant-api.com/v1/agents/22697054-4b0e-6694-0816-a8b707b67b23/displayicon",
+    "hint": "Centinela francés y elegante que teletransporta con estilo y elimina con pistola custom."
+  }
+]

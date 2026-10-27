@@ -181,7 +181,11 @@ io.on('connection', (socket) => {
   socket.on('room:backToLobby', ({ code } = {}) => {
     const room = getRoom(code);
     if (!room || room.hostId !== socket.id) return;
-    room.status = 'lobby';
+
+    // Cancel any active Impostor timer before resetting
+    impostorHandler.cancelTimer(code);
+
+    room.status    = 'lobby';
     room.gameState = null;
     io.to(code).emit('room:updated', { room: publicRoom(room) });
     io.to(code).emit('game:backToLobby');

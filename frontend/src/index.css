@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Base ────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  @apply bg-hx-bg text-hx-text font-body antialiased;
+  min-height: 100dvh;
+}
+
+/* ── Scrollbar (Chromium) ────────────────────────────── */
+::-webkit-scrollbar        { width: 6px; height: 6px; }
+::-webkit-scrollbar-track  { @apply bg-hx-card; }
+::-webkit-scrollbar-thumb  { @apply bg-hx-border rounded-full; }
+::-webkit-scrollbar-thumb:hover { @apply bg-hx-gold; }
+
+/* ── Utility: Hextech divider ─────────────────────────── */
+.hex-divider {
+  @apply w-full h-px bg-gradient-to-r from-transparent via-hx-gold to-transparent opacity-40 my-6;
+}
+
+/* ── Utility: gold-border card ────────────────────────── */
+.hex-card {
+  @apply bg-hx-card border border-hx-border rounded-xl shadow-card;
+}
+
+/* ── Streamer blur ────────────────────────────────────── */
+.streamer-blur {
+  filter: blur(8px);
+  transition: filter 0.25s ease;
+  cursor: pointer;
+  user-select: none;
+}
+.streamer-blur:hover { filter: none; }
+
+/* ── Gold glow button ─────────────────────────────────── */
+.btn-gold {
+  @apply bg-hx-gold text-hx-bg font-semibold px-6 py-2.5 rounded-lg
+         hover:bg-hx-gold-l transition-colors duration-200 shadow-gold
+         disabled:opacity-40 disabled:cursor-not-allowed disabled:shadow-none;
+}
+
+.btn-outline {
+  @apply border border-hx-gold text-hx-gold font-semibold px-6 py-2.5 rounded-lg
+         hover:bg-hx-gold hover:text-hx-bg transition-colors duration-200
+         disabled:opacity-40 disabled:cursor-not-allowed;
+}
+
+.btn-red {
+  @apply bg-hx-red text-white font-semibold px-6 py-2.5 rounded-lg
+         hover:opacity-80 transition-opacity duration-200 shadow-red
+         disabled:opacity-40 disabled:cursor-not-allowed;
+}
+
+/* ── Form inputs ──────────────────────────────────────── */
+.hex-input {
+  @apply w-full bg-hx-surface border border-hx-border rounded-lg px-4 py-2.5
+         text-hx-text placeholder-hx-muted
+         focus:outline-none focus:border-hx-gold focus:ring-1 focus:ring-hx-gold
+         transition-colors duration-200;
+}
+
+/* ── Ad placeholder ───────────────────────────────────── */
+.ad-placeholder {
+  @apply bg-hx-card border border-hx-border border-dashed rounded-lg
+         flex items-center justify-center text-hx-muted text-xs text-center;
+}

@@ -182,8 +182,9 @@ io.on('connection', (socket) => {
     const room = getRoom(code);
     if (!room || room.hostId !== socket.id) return;
 
-    // Cancel any active Impostor timer before resetting
+    // Cancel any active timers before resetting
     impostorHandler.cancelTimer(code);
+    guessWhoHandler.cancelTimer(code);
 
     room.status    = 'lobby';
     room.gameState = null;
